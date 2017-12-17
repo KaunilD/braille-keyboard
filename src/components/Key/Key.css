@@ -1,0 +1,53 @@
+div.Key{
+  min-width: 50px;
+  height: 50px;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #000000;
+  background: #d7d7d7;
+  margin: 6px;
+  border-radius: 3px;
+
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+p{
+  text-align: center;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  display: inline-block;
+  text-transform: uppercase;
+
+}
+
+div.f >p{
+  padding-bottom: 6px;
+  margin-bottom: 2px;
+  border-bottom: 2px solid #000000;
+}
+
+div.j >p{
+  padding-bottom: 6px;
+  margin-bottom: 2px;
+  border-bottom: 2px solid #000000;
+}
+
+div.space{
+  width: 346px;
+  color:#D7D7D7;
+}
+
+.active {
+  border: 2px solid #fd0;
+  color: #fd0;
+  -webkit-transition: 0s;
+  -moz-transition: 0s;
+  -ms-transition: 0s;
+  transition: 0s;
+}

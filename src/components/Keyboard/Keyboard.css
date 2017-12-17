@@ -1,0 +1,21 @@
+div.Keyboard{
+  width: auto;
+  height: auto;
+  margin: auto;
+  display: inline-block;
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 5px;
+}
+div.Keyboard > div{
+
+  text-align: center;
+}
+
+div.Keyboard > div.first{
+  border-radius: 5px 5px 0px 0px;
+}
+
+div.Keyboard > div.third{
+  border-radius: 0px 0px 5px 5px;
+}
