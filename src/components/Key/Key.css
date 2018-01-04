@@ -10,11 +10,15 @@ div.Key{
   margin: 6px;
   border-radius: 3px;
 
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -o-transition: .5s;
-  -ms-transition: .5s;
-  transition: .5s;
+  -webkit-transition:all .1s;
+  -moz-transition:all .1s;
+  -o-transition:all .1s;
+  -ms-transition:all .1s;
+  transition:all .1s;
+}
+
+.pressed{
+    border: 1px solid #FFC600;
 }
 
 p{
